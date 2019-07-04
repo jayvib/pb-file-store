@@ -1,0 +1,10 @@
+syntax = "proto3"; 
+
+package pb;
+
+message Article {
+	int64 id = 1;
+	string title = 2;
+	string content = 3;
+	string user = 4;
+}

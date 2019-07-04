@@ -1,0 +1,4 @@
+github.com/gerlacdt/db-key-value-store v0.0.0-20180803205224-fa6f883a2a8e h1:M0I2+/ccxKsUQSRsxKHCDJGdI3uLZh0iurUMFz5o4xo=
+github.com/gerlacdt/db-key-value-store v0.0.0-20180803205224-fa6f883a2a8e/go.mod h1:MT+JzWvp53MyLg1u1XhflfAWNgixsv60ULhr9612NiY=
+github.com/golang/protobuf v1.3.1 h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=
+github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
