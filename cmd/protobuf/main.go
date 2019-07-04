@@ -18,7 +18,6 @@ import (
 // to be the data serialization.
 //
 // I will use it for data persistence.
-
 func main() {
 	file, err := os.Create("test.pb")
 	if err != nil {
@@ -74,6 +73,7 @@ func (d *db) pbAppend(article *pb.Article) (int64, error) {
 		return 0, fmt.Errorf("buffer write error %v", err)
 	}
 	// write to the file
+	_, err = d.f.Write(byteBuffer.Bytes())
 	if err != nil {
 		return 0, fmt.Errorf("file write error %v", err)
 	}
